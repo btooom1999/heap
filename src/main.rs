@@ -8,7 +8,8 @@ mod k_closest_points_to_origin;
 mod kth_largest_element_in_an_array;
 mod task_scheduler;
 mod least_number_of_unique_integers_after_k_removals;
+mod furthest_building_you_can_reach;
 
 fn main() {
-    least_number_of_unique_integers_after_k_removals::main();
+    furthest_building_you_can_reach::main();
 }
