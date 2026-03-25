@@ -7,7 +7,8 @@ mod final_array_state_after_k_multiplication_operations_1;
 mod k_closest_points_to_origin;
 mod kth_largest_element_in_an_array;
 mod task_scheduler;
+mod least_number_of_unique_integers_after_k_removals;
 
 fn main() {
-    task_scheduler::main();
+    least_number_of_unique_integers_after_k_removals::main();
 }
