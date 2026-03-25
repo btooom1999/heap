@@ -30,10 +30,6 @@ impl KthLargest {
 }
 
 pub fn main() {
-    let mut kthLargest = KthLargest::new(4, vec![7, 7, 7, 7, 8, 3]);
-    println!("{}", kthLargest.add(2)); // return 7
-    println!("{}", kthLargest.add(10)); // return 7
-    println!("{}", kthLargest.add(9)); // return 7
-    println!("{}", kthLargest.add(9)); // return 8
+    let mut kth_largest = KthLargest::new(4, vec![7, 7, 7, 7, 8, 3]);
 }
 
