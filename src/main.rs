@@ -10,7 +10,8 @@ mod task_scheduler;
 mod least_number_of_unique_integers_after_k_removals;
 mod furthest_building_you_can_reach;
 mod single_threaded_cpu;
+mod seat_reservation_manager;
 
 fn main() {
-    single_threaded_cpu::main();
+    seat_reservation_manager::main();
 }
