@@ -16,7 +16,8 @@ mod find_the_kth_largest_integer_in_the_array;
 mod reorganize_string;
 mod longest_happy_string;
 mod car_pooling;
+mod range_sum_of_sorted_subarray_sums;
 
 fn main() {
-    car_pooling::main();
+    range_sum_of_sorted_subarray_sums::main();
 }

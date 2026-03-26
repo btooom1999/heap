@@ -1,9 +1,9 @@
 use std::{cmp::Reverse, collections::BinaryHeap};
 
 fn car_pooling(mut trips: Vec<Vec<i32>>, mut capacity: i32) -> bool {
-    trips.sort_by(|a, b| a[1].cmp(&b[1]).then(a[2].cmp(&b[2])));
-    let mut min_heap = BinaryHeap::new();
+    trips.sort_by(|a, b| a[1].cmp(&b[1]));
 
+    let mut min_heap = BinaryHeap::new();
     let mut from = 1;
     let mut i = 0;
     let n = trips.len();
