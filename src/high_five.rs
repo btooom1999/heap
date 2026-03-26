@@ -3,12 +3,12 @@ use std::{cmp::Reverse, collections::BinaryHeap};
 fn high_five(items: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
     let mut res = vec![None as Option<(i32, BinaryHeap<Reverse<i32>>)>; 1001];
     for item in items {
-        let (id, num) = (item[0], item[1]);
-        if res[id as usize].is_none() {
-            res[id as usize] = Some((id, BinaryHeap::new()));
+        let (id, num) = (item[0] as usize, item[1]);
+        if res[id].is_none() {
+            res[id] = Some((id as i32, BinaryHeap::new()));
         }
 
-        let mut heap = res[id as usize].as_mut().unwrap();
+        let mut heap = res[id].as_mut().unwrap();
         heap.1.push(Reverse(num));
         if heap.1.len() > 5 {
             heap.1.pop();
@@ -19,10 +19,12 @@ fn high_five(items: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         .into_iter()
         .flatten()
         .filter(|v| v.1.len() == 5)
-        .map(|(id, vec)| vec![
-            id,
-            vec.into_iter().map(|v| v.0).sum::<i32>() / 5
-        ])
+        .map(|(id, vec)|
+            vec![
+                id,
+                vec.into_iter().map(|v| v.0).sum::<i32>() / 5
+            ]
+        )
         .collect()
 }
 

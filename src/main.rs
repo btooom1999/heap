@@ -18,7 +18,8 @@ mod longest_happy_string;
 mod car_pooling;
 mod range_sum_of_sorted_subarray_sums;
 mod high_five;
+mod minimum_cost_to_connect_sticks;
 
 fn main() {
-    high_five::main();
+    minimum_cost_to_connect_sticks::main();
 }
