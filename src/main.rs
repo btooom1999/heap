@@ -15,5 +15,5 @@ mod process_tasks_using_servers;
 mod find_the_kth_largest_integer_in_the_array;
 
 fn main() {
-    find_the_kth_largest_integer_in_the_array::main();
+    kth_largest_element_in_an_array::main();
 }
