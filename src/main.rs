@@ -13,7 +13,8 @@ mod single_threaded_cpu;
 mod seat_reservation_manager;
 mod process_tasks_using_servers;
 mod find_the_kth_largest_integer_in_the_array;
+mod reorganize_string;
 
 fn main() {
-    kth_largest_element_in_an_array::main();
+    reorganize_string::main();
 }
