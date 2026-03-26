@@ -14,7 +14,8 @@ mod seat_reservation_manager;
 mod process_tasks_using_servers;
 mod find_the_kth_largest_integer_in_the_array;
 mod reorganize_string;
+mod longest_happy_string;
 
 fn main() {
-    reorganize_string::main();
+    longest_happy_string::main();
 }
