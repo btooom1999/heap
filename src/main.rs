@@ -12,7 +12,8 @@ mod furthest_building_you_can_reach;
 mod single_threaded_cpu;
 mod seat_reservation_manager;
 mod process_tasks_using_servers;
+mod find_the_kth_largest_integer_in_the_array;
 
 fn main() {
-    process_tasks_using_servers::main();
+    find_the_kth_largest_integer_in_the_array::main();
 }
