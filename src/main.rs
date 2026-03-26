@@ -11,7 +11,8 @@ mod least_number_of_unique_integers_after_k_removals;
 mod furthest_building_you_can_reach;
 mod single_threaded_cpu;
 mod seat_reservation_manager;
+mod process_tasks_using_servers;
 
 fn main() {
-    seat_reservation_manager::main();
+    process_tasks_using_servers::main();
 }
