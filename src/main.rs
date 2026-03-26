@@ -17,7 +17,8 @@ mod reorganize_string;
 mod longest_happy_string;
 mod car_pooling;
 mod range_sum_of_sorted_subarray_sums;
+mod high_five;
 
 fn main() {
-    range_sum_of_sorted_subarray_sums::main();
+    high_five::main();
 }
