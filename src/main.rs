@@ -20,7 +20,8 @@ mod range_sum_of_sorted_subarray_sums;
 mod high_five;
 mod minimum_cost_to_connect_sticks;
 mod relative_ranks;
+mod sort_characters_by_frequency;
 
 fn main() {
-    relative_ranks::main();
+    sort_characters_by_frequency::main();
 }
