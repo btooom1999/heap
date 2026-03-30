@@ -19,7 +19,8 @@ mod car_pooling;
 mod range_sum_of_sorted_subarray_sums;
 mod high_five;
 mod minimum_cost_to_connect_sticks;
+mod relative_ranks;
 
 fn main() {
-    minimum_cost_to_connect_sticks::main();
+    relative_ranks::main();
 }
