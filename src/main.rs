@@ -21,7 +21,8 @@ mod high_five;
 mod minimum_cost_to_connect_sticks;
 mod relative_ranks;
 mod sort_characters_by_frequency;
+mod maximum_subsequence_score;
 
 fn main() {
-    sort_characters_by_frequency::main();
+    maximum_subsequence_score::main();
 }
