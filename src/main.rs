@@ -22,7 +22,8 @@ mod minimum_cost_to_connect_sticks;
 mod relative_ranks;
 mod sort_characters_by_frequency;
 mod maximum_subsequence_score;
+mod decode_ways;
 
 fn main() {
-    maximum_subsequence_score::main();
+    decode_ways::main();
 }
