@@ -23,7 +23,8 @@ mod relative_ranks;
 mod sort_characters_by_frequency;
 mod maximum_subsequence_score;
 mod decode_ways;
+mod coin_change;
 
 fn main() {
-    decode_ways::main();
+    coin_change::main();
 }
