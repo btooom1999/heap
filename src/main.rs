@@ -24,7 +24,8 @@ mod sort_characters_by_frequency;
 mod maximum_subsequence_score;
 mod decode_ways;
 mod coin_change;
+mod maximum_product_subarray;
 
 fn main() {
-    coin_change::main();
+    maximum_product_subarray::main();
 }
