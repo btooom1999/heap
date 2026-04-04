@@ -25,7 +25,8 @@ mod maximum_subsequence_score;
 mod decode_ways;
 mod coin_change;
 mod maximum_product_subarray;
+mod ugly_number_2;
 
 fn main() {
-    maximum_product_subarray::main();
+    ugly_number_2::main();
 }
