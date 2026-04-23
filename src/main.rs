@@ -27,9 +27,7 @@ mod coin_change;
 mod maximum_product_subarray;
 mod ugly_number_2;
 mod maximize_y_sum_by_picking_a_triplet_of_distinct_x_values;
-mod minimum_difference_between_largest_and_smallest_value_in_three_moves;
-mod maximum_total_importance_of_roads;
 
 fn main() {
-    maximum_total_importance_of_roads::main();
+    maximize_y_sum_by_picking_a_triplet_of_distinct_x_values::main();
 }
