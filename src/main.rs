@@ -26,7 +26,8 @@ mod decode_ways;
 mod coin_change;
 mod maximum_product_subarray;
 mod ugly_number_2;
+mod maximize_y_sum_by_picking_a_triplet_of_distinct_x_values;
 
 fn main() {
-    ugly_number_2::main();
+    maximize_y_sum_by_picking_a_triplet_of_distinct_x_values::main();
 }
