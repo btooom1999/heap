@@ -27,7 +27,8 @@ mod coin_change;
 mod maximum_product_subarray;
 mod ugly_number_2;
 mod maximize_y_sum_by_picking_a_triplet_of_distinct_x_values;
+mod maximal_score_after_applying_k_operations;
 
 fn main() {
-    maximize_y_sum_by_picking_a_triplet_of_distinct_x_values::main();
+    maximal_score_after_applying_k_operations::main();
 }
